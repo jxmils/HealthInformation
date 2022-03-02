@@ -27,4 +27,4 @@ The basic capabilities of the Health Information (HI) app will be the following:
 ## External Interface Requirements
 
 ### References
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4668763/
+[Why is this important?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4668763/)
