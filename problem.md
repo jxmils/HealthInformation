@@ -4,9 +4,6 @@
 ## Scope
   Scope of the product would be to mobile users. It would be an app in the app store in which it would be free to all customers. The main goal for this app is to help people, mainly the elderly to create doctor’s appointments easier and faster, creating less of a hassle to check what medications a person needs to take on a daily, weekly, monthly basis. Also, helping with scheduling pharmacy pickups for prescriptions.
   
-## Why is this application important?
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4668763/
-
 ## Context
   During the pandemic times, many people may be facing health problems and they want to know how their health conditions are. This app can track people's health and include information about different kinds of disease such as cold, flu, etc. Furthermore, it can help patients know more about the health conditions and other functions for the patients.
 
@@ -28,3 +25,6 @@ The basic capabilities of the Health Information (HI) app will be the following:
   It only works functionally on the iOS system but not on the Android system. However, it is still readable on the Android system but can not edit information. Also, it is not compatible on a website, it only works on the mobile app. The possible external software packages of the system can depend on API. System assumptions is iOS based.
   
 ## External Interface Requirements
+
+### References
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4668763/
