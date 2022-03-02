@@ -12,14 +12,14 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4668763/
 
 ## Functions
 The basic capabilities of the Health Information (HI) app will be the following:
-Prescription information list:  The app will contain a list of the user’s prescription information such as the dosis, the time periods, and the name of the medicine. 
-Doctors information: The app will also contain a list of the user’s current doctors information such as their names, directions, phone numbers, and specialties.
-Appointment schedule: The HI app will also contain a schedule with all the medical related appointments that the user has. 
-Medical ID:  The app will have a special feature called the Medical ID. This ID will contain the basic medical information from the user such as the blood type, allergies, health conditions, organ donor status, etc. 
-Parental control: The app will contain a children’s mode that will include mostly the Medical ID and will prevent younger users from making appointments or messing with their prescriptions. 
-Medication Checklist: It will contain a checklist for every day the user needs to take the medications. 
-Prescription remainder: The app will give the user a reminder when they are running down on their medications and will send an email to their preferred pharmacy asking for the refill. 
-Face recognition:  The app will have a face recognition authentication system to help protect the users sensitive data. 
+* Prescription information list:  The app will contain a list of the user’s prescription information such as the dosis, the time periods, and the name of the medicine. 
+* Doctors information: The app will also contain a list of the user’s current doctors information such as their names, directions, phone numbers, and specialties.
+* Appointment schedule: The HI app will also contain a schedule with all the medical related appointments that the user has. 
+* Medical ID:  The app will have a special feature called the Medical ID. This ID will contain the basic medical information from the user such as the blood type, allergies, health conditions, organ donor status, etc. 
+* Parental control: The app will contain a children’s mode that will include mostly the Medical ID and will prevent younger users from making appointments or messing with their prescriptions. 
+* Medication Checklist: It will contain a checklist for every day the user needs to take the medications. 
+* Prescription remainder: The app will give the user a reminder when they are running down on their medications and will send an email to their preferred pharmacy asking for the refill. 
+* Face recognition:  The app will have a face recognition authentication system to help protect the users sensitive data. 
 
 ## User Characteristics and Expectations
   The HI app is directed to most people, specially those who have a lot of prescription medications and doctor appointments. It will have parental control to limit what young users can do with the app. Mostly what the users will be able to do with the app is to enter their prescription information into an organized list, enter their doctors information, their appointments information, and the information that they want to be displayed into the Medical ID. The user will be able to check and modify their prescription list, doctors information, appointments information and Medical ID information whenever they want. Also, they will be in charge of going to the medication checklist to indicate that they took their medication. The application will send reminders to the user about upcoming refills and will ask them permission to ask for the refill. 
