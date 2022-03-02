@@ -1,6 +1,6 @@
 # HealthInformation Application
 
-### [Problem Statement](https://jxmils.github.io/HealthInformation/problem.html)
+### [Problem Statement](https://jxmils.github.io/HealthInformation/problem.md)
 
 ### [User Stories](https://jxmils.github.io/HealthInformation/userstories.html)
 
