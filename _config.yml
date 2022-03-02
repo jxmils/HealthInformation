@@ -5,9 +5,9 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - architecture.md
-  - design.md
-  - index.md
-  - problem.md
-  - testreport.md
-  - userstories.md
+  - architecture.html
+  - design.html
+  - index.html
+  - problem.html
+  - testreport.html
+  - userstories.html
