@@ -1,1 +1,13 @@
 theme: jekyll-theme-midnight
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - architecture.md
+  - design.md
+  - index.md
+  - problem.md
+  - testreport.md
+  - userstories.md
