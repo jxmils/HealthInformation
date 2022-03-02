@@ -3,15 +3,14 @@
 ## About
 The HealthInformation application (HI) is a mobile application designed for the iOS operating system. This application will keep track of various medical information for the downloader. Information such as: dates, dosage amount, and information for prescribed medicine(s), medical card identification including health concerns and conditions, blood type, current medicine(s), address, etc... There will also be options to contact your local health provider on your behalf and refill prescriptions if running low.
 
-### [Problem Statement](https://jxmils.github.io/HealthInformation/problem.md)
+### [Problem Statement](https://jxmils.github.io/HealthInformation/problem.html)
 
-### [User Stories](https://jxmils.github.io/HealthInformation/userstories.md)
+### [User Stories](https://jxmils.github.io/HealthInformation/userstories.html)
 
-### [Requirements](https://jxmils.github.io/HealthInformation/requirements.md)
+### [Requirements](https://jxmils.github.io/HealthInformation/requirements.html)
 
-### [Architecture](https://jxmils.github.io/HealthInformation/architecture.md)
+### [Architecture](https://jxmils.github.io/HealthInformation/architecture.html)
 
-### [Design Document](https://jxmils.github.io/HealthInformation/design.md)
+### [Design Document](https://jxmils.github.io/HealthInformation/design.html)
 
-### [Test Report](https://jxmils.github.io/HealthInformation/testreport.md)
-
+### [Test Report](https://jxmils.github.io/HealthInformation/testreport.html)
