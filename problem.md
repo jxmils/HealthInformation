@@ -1,4 +1,4 @@
-<center> <h1>Problem Statement 1</h1> </center>
+<center> <h1>Problem Statement</h1> </center>
 
 ## Purpose
 The HealthInformation Application(HI) is an application aiming to tackle the problem of having your medical life scattered, unorganized, and hard to keep track of. This is an iOS application offered on the app store designed to make your medical life easier. It will keep track of various medical information for the downloader; such as dosage amounts and dates, common information for prescribed medication, medical identification with contains: health conditions, blood type, current medications, address, date of birth, and sex. It gets tiring having to call and ask for a refill on your prescription, this application will handle that for you. It will make your medical life less of a hassle. 
