@@ -1,2 +1,2 @@
-# Story 1
-This is a test
+
+<center> <h1>User Stories</h1> </center>
