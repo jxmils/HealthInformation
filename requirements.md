@@ -15,6 +15,7 @@ During the pandemic times, many people may be facing health problems and they wa
 
 ## Domain Model with Description
 ![Domain Model (1)](https://user-images.githubusercontent.com/57817977/160038128-5cec71c4-b162-4726-bae0-778eca45941d.png)
+
 Model shows the different components of the application. The Hi app consists of a sign in interface to log in into the app, the home page will contain tabs to go to the following components: a Medical Information Card (MID) with the user’s basic information, a calendar that will contain the dates of appointments, a prescription list and checklist, and the doctor’s relevant information.   
 
 ## Functions
