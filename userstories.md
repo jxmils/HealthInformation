@@ -71,4 +71,14 @@ Constraints: Correct pharmacy/care information.<br>
 Effort Estimation: 4 person-hours.<br>
 Acceptance Test: Correctly book an appointment with a doctors office.
 
+## 3.4 Calendar
+As a user, I want to be able to easily and efficiently create, edit, and delete appointments in my calendar.<br>
+Elaboration: Users are able to create, modify and delete future, or existing appointments without making it too complicated in which the user becomes anxious or too confused, in which they will stop using the app, and/or delete it.<br>
+Effort Estimation: 4 - person hours<br>
+Acceptance State:  When the user is able to freely edit, create or delete an appointment without any hassle nor any bugs in the program.<br>
 
+## 3.5 Doctor inteface
+As a user, I want to be able to easily access all the doctors/clinics in my area.<br>
+Elaboration: Users are able to access and easily see ratings on nearby doctors, which one is the closest to current location, and find out where to go for certain kinds of treatment, aka x-rays, chest congestion, skin infection, etc....<br>
+Effort Estimation: 2 - person hours<br>
+Acceptance State:  When the user is able to access doctors in my area user interface<br>
