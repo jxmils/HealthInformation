@@ -1,7 +1,7 @@
 
 <center> <h1>User Stories</h1> </center>
 
-## 1 Accessing and Editing Information 
+# 1 Accessing and Editing Information 
 
 ## 1.1 Edit in App
 As a doctor, I want to edit my information in app with spreadsheet functions so that I can change information on my own device in case I have to.<br>
@@ -18,7 +18,7 @@ Effort Estimation: 4 person-hours<br>
 Acceptance Test: Succesfully edit and save information on the application.<br>
 
 
-## 2 User Input and Output
+# 2 User Input and Output
 
 ## 2.1 Uploading Information
 As an elderly person, I want to be able to upload my information to the HI app by scanning my ID card. Typing in can be really slow for me and time consuming. <br>
@@ -42,7 +42,7 @@ Effort Estimation: 1 person-hour.<br>
 Acceptance Test: Succesfully print out an information sheet.
 
 
-## 3 App navigation
+# 3 App navigation
 
 ## 3.1 Functionality Issue
 As a elderly person, I want to be able to use the HI app without having too many problems accessing all of its functionalities. <br>
