@@ -19,6 +19,20 @@ During the pandemic times, many people may be facing health problems and they wa
 Model shows the different components of the application. The Hi app consists of a sign in interface to log in into the app, the home page will contain tabs to go to the following components: a Medical Information Card (MID) with the user’s basic information, a calendar that will contain the dates of appointments, a prescription list and checklist, and the doctor’s relevant information.   
 
 ## Functions
+Overview of the HI app capabilities:
+* It will contain a prescription list as well as a checklist for taking the medication. Also, the user will have the capability adding remainders for when to take the medication.  
+* It will also contain relevant information of the user's current doctors.  
+* The app will contain a modificable calendar so the user can add health related important dates. 
+* The app will contain a Medical Information Card (MID) that will have basic medical information of the user. 
+* Face recognition authentication system to help protect the users sensitive data. 
+
+## User Characteristics and Expectations
+The HI app is directed to most people, specially those who have a lot of prescription medications and doctor appointments. It will have parental control to limit what young users can do with the app. Mostly what the users will be able to do with the app is to enter their prescription information into an organized list, enter their doctors information, their appointments information, and the information that they want to be displayed into the Medical ID. The user will be able to check and modify their prescription list, doctors information, appointments information and Medical ID information whenever they want. Also, they will be in charge of going to the medication checklist to indicate that they took their medication. The application will send reminders to the user about upcoming refills and will ask them permission to ask for the refill. 
+
+## Constraints and Assumptions
+It only works functionally on the iOS system but not on the Android system. However, it is still readable on the Android system but can not edit information. Also, it is not compatible on a website, it only works on the mobile app. The possible external software packages of the system can depend on API. System assumptions is iOS based.
+  
+## Functional Requirements
 The basic capabilities of the Health Information (HI) app will be the following:
 * Prescription information list:  The app will contain a list of the user’s prescription information such as the dosis, the time periods, and the name of the medicine. 
 * Doctors information: The app will also contain a list of the user’s current doctors information such as their names, directions, phone numbers, and specialties.
@@ -29,12 +43,8 @@ The basic capabilities of the Health Information (HI) app will be the following:
 * Prescription remainder: The app will give the user a reminder when they are running down on their medications and will send an email to their preferred pharmacy asking for the refill. 
 * Face recognition:  The app will have a face recognition authentication system to help protect the users sensitive data. 
 
-## User Characteristics and Expectations
-The HI app is directed to most people, specially those who have a lot of prescription medications and doctor appointments. It will have parental control to limit what young users can do with the app. Mostly what the users will be able to do with the app is to enter their prescription information into an organized list, enter their doctors information, their appointments information, and the information that they want to be displayed into the Medical ID. The user will be able to check and modify their prescription list, doctors information, appointments information and Medical ID information whenever they want. Also, they will be in charge of going to the medication checklist to indicate that they took their medication. The application will send reminders to the user about upcoming refills and will ask them permission to ask for the refill. 
+User Stories:  https://jxmils.github.io/HealthInformation/userstories.html 
 
-## Constraints and Assumptions
-It only works functionally on the iOS system but not on the Android system. However, it is still readable on the Android system but can not edit information. Also, it is not compatible on a website, it only works on the mobile app. The possible external software packages of the system can depend on API. System assumptions is iOS based.
-  
 ## External Interface Requirements
 There will be many types of interfaces for this app. One will be for the user to login securely. Another would be for setting up appointments for the doctors. One for the prescriptions and medications that the customer will take. Another for the calendar with two sections: one for appointments, and the other for medications to take on those days.
 
