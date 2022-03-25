@@ -8,6 +8,7 @@ Scope of the product would be to mobile users. It would be an app in the app sto
 
 ## Acronyms, Abbreviations, Definitions
 HI (Health Information) : The name of the app
+
 MID (Medical Information Card) : Name of the medical card that will contain basic medical information of the user
 
 ## Context
