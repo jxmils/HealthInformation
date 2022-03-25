@@ -5,9 +5,17 @@ The HealthInformation Application(HI) is an application aiming to tackle the pro
   
 ## Scope
 Scope of the product would be to mobile users. It would be an app in the app store in which it would be free to all customers. The main goal for this app is to help people, mainly the elderly to create doctor’s appointments easier and faster, creating less of a hassle to check what medications a person needs to take on a daily, weekly, monthly basis. Also, helping with scheduling pharmacy pickups for prescriptions.
-  
+
+## Acronyms, Abbreviations, Definitions
+HI (Health Information) : The name of the app
+MID (Medical Information Card) : Name of the medical card that will contain basic medical information of the user
+
 ## Context
 During the pandemic times, many people may be facing health problems and they want to know how their health conditions are. This app can track people's health and include information about different kinds of disease such as cold, flu, etc. Furthermore, it can help patients know more about the health conditions and other functions for the patients.
+
+## Domain Model with Description
+![Domain Model (1)](https://user-images.githubusercontent.com/57817977/160038128-5cec71c4-b162-4726-bae0-778eca45941d.png)
+Model shows the different components of the application. The Hi app consists of a sign in interface to log in into the app, the home page will contain tabs to go to the following components: a Medical Information Card (MID) with the user’s basic information, a calendar that will contain the dates of appointments, a prescription list and checklist, and the doctor’s relevant information.   
 
 ## Functions
 The basic capabilities of the Health Information (HI) app will be the following:
