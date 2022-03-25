@@ -43,6 +43,9 @@ The basic capabilities of the Health Information (HI) app will be the following:
 * Medication Checklist: It will contain a checklist for every day the user needs to take the medications. 
 * Prescription remainder: The app will give the user a reminder when they are running down on their medications and will send an email to their preferred pharmacy asking for the refill. 
 * Face recognition:  The app will have a face recognition authentication system to help protect the users sensitive data. 
+* Editing information: The user should have the cabability to modify their prescription, MID and doctor's information, add or remove appointments, and set remainders for their medication schedule from their device whenever is needed. 
+* Scanning ID: The app will allow the user to scan their ID card to automatically set their information into the virtual medical information cars. 
+* Printing: The user should be able to print information from the app in a nice printable format. 
 
 User Stories:  https://jxmils.github.io/HealthInformation/userstories.html 
 
