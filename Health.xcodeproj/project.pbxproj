@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C99F4F327F1440D0020629A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C99F4F227F1440D0020629A /* GoogleService-Info.plist */; };
+		1C99F4F427F1440D0020629A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C99F4F227F1440D0020629A /* GoogleService-Info.plist */; };
+		1CAC02DB27F1354E002B2D59 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02DA27F1354E002B2D59 /* Tests_iOS.swift */; };
+		1CAC02DD27F1354E002B2D59 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02DC27F1354E002B2D59 /* Tests_iOSLaunchTests.swift */; };
+		1CAC02E727F1354E002B2D59 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02E627F1354E002B2D59 /* Tests_macOS.swift */; };
+		1CAC02E927F1354E002B2D59 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02E827F1354E002B2D59 /* Tests_macOSLaunchTests.swift */; };
+		1CAC02EA27F1354E002B2D59 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02C227F1354B002B2D59 /* HealthApp.swift */; };
+		1CAC02EB27F1354E002B2D59 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02C227F1354B002B2D59 /* HealthApp.swift */; };
+		1CAC02EC27F1354E002B2D59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02C327F1354B002B2D59 /* ContentView.swift */; };
+		1CAC02ED27F1354E002B2D59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02C327F1354B002B2D59 /* ContentView.swift */; };
+		1CAC02EE27F1354E002B2D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC02C427F1354D002B2D59 /* Assets.xcassets */; };
+		1CAC02EF27F1354E002B2D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC02C427F1354D002B2D59 /* Assets.xcassets */; };
+		1CAC02FF27F135BE002B2D59 /* Hi Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC02FE27F135BE002B2D59 /* Hi Logo.png */; };
+		1CAC030027F135BE002B2D59 /* Hi Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC02FE27F135BE002B2D59 /* Hi Logo.png */; };
+		3321FA2EA349F5E7D66F1E9D /* Pods_Health__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E253E086E628B5072BE66DBB /* Pods_Health__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAC02D727F1354E002B2D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAC02BD27F1354A002B2D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAC02C827F1354E002B2D59;
+			remoteInfo = "Health (iOS)";
+		};
+		1CAC02E327F1354E002B2D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAC02BD27F1354A002B2D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAC02CE27F1354E002B2D59;
+			remoteInfo = "Health (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C99F4F227F1440D0020629A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CAC02C227F1354B002B2D59 /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
+		1CAC02C327F1354B002B2D59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CAC02C427F1354D002B2D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CAC02C927F1354E002B2D59 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAC02CF27F1354E002B2D59 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAC02D127F1354E002B2D59 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1CAC02D627F1354E002B2D59 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAC02DA27F1354E002B2D59 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		1CAC02DC27F1354E002B2D59 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		1CAC02E227F1354E002B2D59 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAC02E627F1354E002B2D59 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		1CAC02E827F1354E002B2D59 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1CAC02FE27F135BE002B2D59 /* Hi Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hi Logo.png"; sourceTree = "<group>"; };
+		88001EDB64B4E89459592FFF /* Pods-Health (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Health (iOS)/Pods-Health (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		E253E086E628B5072BE66DBB /* Pods_Health__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AABC526FEEA1E338C4C13B /* Pods-Health (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health (iOS).release.xcconfig"; path = "Target Support Files/Pods-Health (iOS)/Pods-Health (iOS).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAC02C627F1354E002B2D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3321FA2EA349F5E7D66F1E9D /* Pods_Health__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02CC27F1354E002B2D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02D327F1354E002B2D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02DF27F1354E002B2D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAC02BC27F1354A002B2D59 = {
+			isa = PBXGroup;
+			children = (
+				1CAC02C127F1354B002B2D59 /* Shared */,
+				1CAC02D027F1354E002B2D59 /* macOS */,
+				1CAC02D927F1354E002B2D59 /* Tests iOS */,
+				1CAC02E527F1354E002B2D59 /* Tests macOS */,
+				1CAC02CA27F1354E002B2D59 /* Products */,
+				E097EB6CD1A8086D8D374B7F /* Pods */,
+				78893BEEE4C2456D7C6C9FB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAC02C127F1354B002B2D59 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC02C227F1354B002B2D59 /* HealthApp.swift */,
+				1CAC02C327F1354B002B2D59 /* ContentView.swift */,
+				1CAC02FE27F135BE002B2D59 /* Hi Logo.png */,
+				1C99F4F227F1440D0020629A /* GoogleService-Info.plist */,
+				1CAC02C427F1354D002B2D59 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1CAC02CA27F1354E002B2D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC02C927F1354E002B2D59 /* Health.app */,
+				1CAC02CF27F1354E002B2D59 /* Health.app */,
+				1CAC02D627F1354E002B2D59 /* Tests iOS.xctest */,
+				1CAC02E227F1354E002B2D59 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAC02D027F1354E002B2D59 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC02D127F1354E002B2D59 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		1CAC02D927F1354E002B2D59 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC02DA27F1354E002B2D59 /* Tests_iOS.swift */,
+				1CAC02DC27F1354E002B2D59 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		1CAC02E527F1354E002B2D59 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC02E627F1354E002B2D59 /* Tests_macOS.swift */,
+				1CAC02E827F1354E002B2D59 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		78893BEEE4C2456D7C6C9FB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E253E086E628B5072BE66DBB /* Pods_Health__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E097EB6CD1A8086D8D374B7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88001EDB64B4E89459592FFF /* Pods-Health (iOS).debug.xcconfig */,
+				F9AABC526FEEA1E338C4C13B /* Pods-Health (iOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAC02C827F1354E002B2D59 /* Health (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAC02F227F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Health (iOS)" */;
+			buildPhases = (
+				374B89AFB1C2D1E11CB4D66B /* [CP] Check Pods Manifest.lock */,
+				1CAC02C527F1354E002B2D59 /* Sources */,
+				1CAC02C627F1354E002B2D59 /* Frameworks */,
+				1CAC02C727F1354E002B2D59 /* Resources */,
+				146A7E7B3C7811D44A3B5CEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health (iOS)";
+			productName = "Health (iOS)";
+			productReference = 1CAC02C927F1354E002B2D59 /* Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAC02CE27F1354E002B2D59 /* Health (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAC02F527F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Health (macOS)" */;
+			buildPhases = (
+				1CAC02CB27F1354E002B2D59 /* Sources */,
+				1CAC02CC27F1354E002B2D59 /* Frameworks */,
+				1CAC02CD27F1354E002B2D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health (macOS)";
+			productName = "Health (macOS)";
+			productReference = 1CAC02CF27F1354E002B2D59 /* Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAC02D527F1354E002B2D59 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAC02F827F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				1CAC02D227F1354E002B2D59 /* Sources */,
+				1CAC02D327F1354E002B2D59 /* Frameworks */,
+				1CAC02D427F1354E002B2D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAC02D827F1354E002B2D59 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 1CAC02D627F1354E002B2D59 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1CAC02E127F1354E002B2D59 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAC02FB27F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				1CAC02DE27F1354E002B2D59 /* Sources */,
+				1CAC02DF27F1354E002B2D59 /* Frameworks */,
+				1CAC02E027F1354E002B2D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAC02E427F1354E002B2D59 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 1CAC02E227F1354E002B2D59 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAC02BD27F1354A002B2D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1CAC02C827F1354E002B2D59 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1CAC02CE27F1354E002B2D59 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1CAC02D527F1354E002B2D59 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1CAC02C827F1354E002B2D59;
+					};
+					1CAC02E127F1354E002B2D59 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1CAC02CE27F1354E002B2D59;
+					};
+				};
+			};
+			buildConfigurationList = 1CAC02C027F1354A002B2D59 /* Build configuration list for PBXProject "Health" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CAC02BC27F1354A002B2D59;
+			productRefGroup = 1CAC02CA27F1354E002B2D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAC02C827F1354E002B2D59 /* Health (iOS) */,
+				1CAC02CE27F1354E002B2D59 /* Health (macOS) */,
+				1CAC02D527F1354E002B2D59 /* Tests iOS */,
+				1CAC02E127F1354E002B2D59 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAC02C727F1354E002B2D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC02FF27F135BE002B2D59 /* Hi Logo.png in Resources */,
+				1CAC02EE27F1354E002B2D59 /* Assets.xcassets in Resources */,
+				1C99F4F327F1440D0020629A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02CD27F1354E002B2D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC030027F135BE002B2D59 /* Hi Logo.png in Resources */,
+				1CAC02EF27F1354E002B2D59 /* Assets.xcassets in Resources */,
+				1C99F4F427F1440D0020629A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02D427F1354E002B2D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02E027F1354E002B2D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146A7E7B3C7811D44A3B5CEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health (iOS)/Pods-Health (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health (iOS)/Pods-Health (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Health (iOS)/Pods-Health (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		374B89AFB1C2D1E11CB4D66B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAC02C527F1354E002B2D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC02EC27F1354E002B2D59 /* ContentView.swift in Sources */,
+				1CAC02EA27F1354E002B2D59 /* HealthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02CB27F1354E002B2D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC02ED27F1354E002B2D59 /* ContentView.swift in Sources */,
+				1CAC02EB27F1354E002B2D59 /* HealthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02D227F1354E002B2D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC02DD27F1354E002B2D59 /* Tests_iOSLaunchTests.swift in Sources */,
+				1CAC02DB27F1354E002B2D59 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAC02DE27F1354E002B2D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC02E927F1354E002B2D59 /* Tests_macOSLaunchTests.swift in Sources */,
+				1CAC02E727F1354E002B2D59 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAC02D827F1354E002B2D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAC02C827F1354E002B2D59 /* Health (iOS) */;
+			targetProxy = 1CAC02D727F1354E002B2D59 /* PBXContainerItemProxy */;
+		};
+		1CAC02E427F1354E002B2D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAC02CE27F1354E002B2D59 /* Health (macOS) */;
+			targetProxy = 1CAC02E327F1354E002B2D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CAC02F027F1354E002B2D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CAC02F127F1354E002B2D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1CAC02F327F1354E002B2D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88001EDB64B4E89459592FFF /* Pods-Health (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEGFAULT.Health;
+				PRODUCT_NAME = Health;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CAC02F427F1354E002B2D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AABC526FEEA1E338C4C13B /* Pods-Health (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEGFAULT.Health;
+				PRODUCT_NAME = Health;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAC02F627F1354E002B2D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEGFAULT.Health;
+				PRODUCT_NAME = Health;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1CAC02F727F1354E002B2D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEGFAULT.Health;
+				PRODUCT_NAME = Health;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1CAC02F927F1354E002B2D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SEGFAULT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health (iOS)";
+			};
+			name = Debug;
+		};
+		1CAC02FA27F1354E002B2D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SEGFAULT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAC02FC27F1354E002B2D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SEGFAULT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Health (macOS)";
+			};
+			name = Debug;
+		};
+		1CAC02FD27F1354E002B2D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PSAXW9LPN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SEGFAULT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Health (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAC02C027F1354A002B2D59 /* Build configuration list for PBXProject "Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAC02F027F1354E002B2D59 /* Debug */,
+				1CAC02F127F1354E002B2D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAC02F227F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Health (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAC02F327F1354E002B2D59 /* Debug */,
+				1CAC02F427F1354E002B2D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAC02F527F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Health (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAC02F627F1354E002B2D59 /* Debug */,
+				1CAC02F727F1354E002B2D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAC02F827F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAC02F927F1354E002B2D59 /* Debug */,
+				1CAC02FA27F1354E002B2D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAC02FB27F1354E002B2D59 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAC02FC27F1354E002B2D59 /* Debug */,
+				1CAC02FD27F1354E002B2D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CAC02BD27F1354A002B2D59 /* Project object */;
+}

@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HealthInformation (iOS).xcscheme_^#shared#^_</key>
+		<key>Health (iOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>16</integer>
 		</dict>
-		<key>HealthInformation (macOS).xcscheme_^#shared#^_</key>
+		<key>Health (macOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>15</integer>
 		</dict>
 	</dict>
 </dict>
