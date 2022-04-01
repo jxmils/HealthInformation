@@ -1,6 +1,4 @@
-<p align="center">
-    Application Architecture 
-</p>
+# Application Architecture 
 
 ## Overview
 The Health Information application will enable the user to make medical decisions effortlessly and quickly. It allows for easy access to doctor and health office information, and user health information through a printable medical ID.
