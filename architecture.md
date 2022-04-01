@@ -1,5 +1,5 @@
 <p align="center">
-    # Architecture 
+    Architecture 
 </p>
 
 ## Overview
