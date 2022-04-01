@@ -25,6 +25,12 @@ The Health Information application will enable the user to make medical decision
 We decided to proceed with the layered architecture.
 
 ### Layered Implementation
-Initially, we were having issues testing the system as a whole. We decided to break it up into smaller pieces as you do with any computer science problem. This made it easier to implement the system and let us test the methods and functions independently from each other. We believed it would be the easiest to maintain without having as many problems as we were beforehand. 
+Initially, we were having issues testing the system as a whole. We decided to break it up into smaller pieces as you do with any computer science problem. This made it easier to implement the system and let us test the methods and functions independently from each other. We believed it would be the easiest to maintain without having as many problems as we were beforehand. <br>
+
+<p align="center">
+    <img src="https://github.com/jxmils/HealthInformation/blob/gh-pages/layered.png" alt="Layered Architectur Diagram" style="height: 512px; width: 512px;"/>
+</p>
+
 
 ### Conclusion
+Switching to the layered pattern helped tremendously with piecing together our seperate methods. Knowing each method can work independently can save a lot of time trying to pinpoint which function was causing errors when testing the system as a whole. This implementation was best for our application.
