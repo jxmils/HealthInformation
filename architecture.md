@@ -1,5 +1,5 @@
 <p align="center">
-    Architecture 
+    Application Architecture 
 </p>
 
 ## Overview
