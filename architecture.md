@@ -31,7 +31,7 @@ We decided to proceed with the layered architecture.
 Initially, we were having issues testing the system as a whole. We decided to break it up into smaller pieces as you do with any computer science problem. This made it easier to implement the system and let us test the methods and functions independently from each other. We believed it would be the easiest to maintain without having as many problems as we were beforehand. <br>
 
 <p align="center">
-    <img src="https://github.com/jxmils/HealthInformation/blob/gh-pages/layered.png" alt="Layered Architecture Diagram" style="height: 512px; width: 512px;"/>
+    <img src="/https://github.com/jxmils/HealthInformation/blob/gh-pages/layered.png" alt="Layered Architecture Diagram" style="height: 512px; width: 512px;"/>
 </p>
 
 
