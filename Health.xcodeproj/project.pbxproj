@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0950712800C047007AA29A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950702800C047007AA29A /* AddView.swift */; };
+		1C0950722800C047007AA29A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950702800C047007AA29A /* AddView.swift */; };
+		1C0950772800C05C007AA29A /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950762800C05B007AA29A /* ListRowView.swift */; };
+		1C0950782800C05C007AA29A /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950762800C05B007AA29A /* ListRowView.swift */; };
+		1C09507A2800C067007AA29A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950792800C067007AA29A /* ListView.swift */; };
+		1C09507B2800C067007AA29A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950792800C067007AA29A /* ListView.swift */; };
 		1C5BB3ED27F36885006DAD80 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BB3EC27F36885006DAD80 /* HealthApp.swift */; };
 		1C5BB3EE27F36885006DAD80 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BB3EC27F36885006DAD80 /* HealthApp.swift */; };
 		1C5BB3F627F36E0A006DAD80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BB3F527F36E0A006DAD80 /* GoogleService-Info.plist */; };
 		1C5BB3F727F36E0A006DAD80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BB3F527F36E0A006DAD80 /* GoogleService-Info.plist */; };
+		1C65AE1927FF9FC300ACB755 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65AE1827FF9FC300ACB755 /* SignUpView.swift */; };
+		1C65AE1A27FF9FC300ACB755 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65AE1827FF9FC300ACB755 /* SignUpView.swift */; };
+		1C65AE1C27FFA00200ACB755 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65AE1B27FFA00200ACB755 /* SignInView.swift */; };
+		1C65AE1D27FFA00200ACB755 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65AE1B27FFA00200ACB755 /* SignInView.swift */; };
 		1CAC02DB27F1354E002B2D59 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02DA27F1354E002B2D59 /* Tests_iOS.swift */; };
 		1CAC02DD27F1354E002B2D59 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02DC27F1354E002B2D59 /* Tests_iOSLaunchTests.swift */; };
 		1CAC02E727F1354E002B2D59 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02E627F1354E002B2D59 /* Tests_macOS.swift */; };
@@ -19,6 +29,18 @@
 		1CAC02ED27F1354E002B2D59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC02C327F1354B002B2D59 /* ContentView.swift */; };
 		1CAC02EE27F1354E002B2D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC02C427F1354D002B2D59 /* Assets.xcassets */; };
 		1CAC02EF27F1354E002B2D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC02C427F1354D002B2D59 /* Assets.xcassets */; };
+		1CD3D13B27FF90FF00B03412 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D13A27FF90FF00B03412 /* CheckListView.swift */; };
+		1CD3D13C27FF90FF00B03412 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D13A27FF90FF00B03412 /* CheckListView.swift */; };
+		1CD3D13E27FF94D100B03412 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D13D27FF94D100B03412 /* DataStore.swift */; };
+		1CD3D13F27FF94D100B03412 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D13D27FF94D100B03412 /* DataStore.swift */; };
+		1CD3D14127FF966000B03412 /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14027FF966000B03412 /* Prescription.swift */; };
+		1CD3D14227FF966000B03412 /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14027FF966000B03412 /* Prescription.swift */; };
+		1CD3D14427FF966F00B03412 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14327FF966E00B03412 /* DateValue.swift */; };
+		1CD3D14527FF966F00B03412 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14327FF966E00B03412 /* DateValue.swift */; };
+		1CD3D14727FF967B00B03412 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14627FF967A00B03412 /* CustomDatePicker.swift */; };
+		1CD3D14827FF967B00B03412 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14627FF967A00B03412 /* CustomDatePicker.swift */; };
+		1CD3D14A27FF968F00B03412 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14927FF968F00B03412 /* Home.swift */; };
+		1CD3D14B27FF968F00B03412 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3D14927FF968F00B03412 /* Home.swift */; };
 		3321FA2EA349F5E7D66F1E9D /* Pods_Health__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E253E086E628B5072BE66DBB /* Pods_Health__iOS_.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +62,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0950702800C047007AA29A /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		1C0950762800C05B007AA29A /* ListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		1C0950792800C067007AA29A /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		1C5BB3EC27F36885006DAD80 /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
 		1C5BB3F527F36E0A006DAD80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C65AE1827FF9FC300ACB755 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1C65AE1B27FFA00200ACB755 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		1CAC02C327F1354B002B2D59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CAC02C427F1354D002B2D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CAC02C927F1354E002B2D59 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +80,12 @@
 		1CAC02E227F1354E002B2D59 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAC02E627F1354E002B2D59 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1CAC02E827F1354E002B2D59 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1CD3D13A27FF90FF00B03412 /* CheckListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		1CD3D13D27FF94D100B03412 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1CD3D14027FF966000B03412 /* Prescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prescription.swift; sourceTree = "<group>"; };
+		1CD3D14327FF966E00B03412 /* DateValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		1CD3D14627FF967A00B03412 /* CustomDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		1CD3D14927FF968F00B03412 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		88001EDB64B4E89459592FFF /* Pods-Health (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Health (iOS)/Pods-Health (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		E253E086E628B5072BE66DBB /* Pods_Health__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AABC526FEEA1E338C4C13B /* Pods-Health (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health (iOS).release.xcconfig"; path = "Target Support Files/Pods-Health (iOS)/Pods-Health (iOS).release.xcconfig"; sourceTree = "<group>"; };
@@ -107,8 +140,19 @@
 		1CAC02C127F1354B002B2D59 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1C0950702800C047007AA29A /* AddView.swift */,
+				1C0950762800C05B007AA29A /* ListRowView.swift */,
+				1C0950792800C067007AA29A /* ListView.swift */,
+				1CD3D14927FF968F00B03412 /* Home.swift */,
+				1CD3D14627FF967A00B03412 /* CustomDatePicker.swift */,
+				1CD3D14327FF966E00B03412 /* DateValue.swift */,
+				1CD3D14027FF966000B03412 /* Prescription.swift */,
+				1CD3D13D27FF94D100B03412 /* DataStore.swift */,
+				1CD3D13A27FF90FF00B03412 /* CheckListView.swift */,
 				1C5BB3EC27F36885006DAD80 /* HealthApp.swift */,
 				1CAC02C327F1354B002B2D59 /* ContentView.swift */,
+				1C65AE1827FF9FC300ACB755 /* SignUpView.swift */,
+				1C65AE1B27FFA00200ACB755 /* SignInView.swift */,
 				1C5BB3F527F36E0A006DAD80 /* GoogleService-Info.plist */,
 				1CAC02C427F1354D002B2D59 /* Assets.xcassets */,
 			);
@@ -373,8 +417,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD3D14127FF966000B03412 /* Prescription.swift in Sources */,
 				1CAC02EC27F1354E002B2D59 /* ContentView.swift in Sources */,
+				1CD3D13E27FF94D100B03412 /* DataStore.swift in Sources */,
+				1CD3D14427FF966F00B03412 /* DateValue.swift in Sources */,
+				1C65AE1C27FFA00200ACB755 /* SignInView.swift in Sources */,
 				1C5BB3ED27F36885006DAD80 /* HealthApp.swift in Sources */,
+				1C0950772800C05C007AA29A /* ListRowView.swift in Sources */,
+				1C0950712800C047007AA29A /* AddView.swift in Sources */,
+				1CD3D14727FF967B00B03412 /* CustomDatePicker.swift in Sources */,
+				1CD3D14A27FF968F00B03412 /* Home.swift in Sources */,
+				1C09507A2800C067007AA29A /* ListView.swift in Sources */,
+				1C65AE1927FF9FC300ACB755 /* SignUpView.swift in Sources */,
+				1CD3D13B27FF90FF00B03412 /* CheckListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +437,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD3D14227FF966000B03412 /* Prescription.swift in Sources */,
 				1CAC02ED27F1354E002B2D59 /* ContentView.swift in Sources */,
+				1CD3D13F27FF94D100B03412 /* DataStore.swift in Sources */,
+				1CD3D14527FF966F00B03412 /* DateValue.swift in Sources */,
+				1C65AE1D27FFA00200ACB755 /* SignInView.swift in Sources */,
 				1C5BB3EE27F36885006DAD80 /* HealthApp.swift in Sources */,
+				1C0950782800C05C007AA29A /* ListRowView.swift in Sources */,
+				1C0950722800C047007AA29A /* AddView.swift in Sources */,
+				1CD3D14827FF967B00B03412 /* CustomDatePicker.swift in Sources */,
+				1CD3D14B27FF968F00B03412 /* Home.swift in Sources */,
+				1C09507B2800C067007AA29A /* ListView.swift in Sources */,
+				1C65AE1A27FF9FC300ACB755 /* SignUpView.swift in Sources */,
+				1CD3D13C27FF90FF00B03412 /* CheckListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
