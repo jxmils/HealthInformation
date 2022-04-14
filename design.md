@@ -39,7 +39,7 @@ This is a digital medical ID card that has a lot of sensitive information, inclu
 
 ## Control Issue
 ### Login Issues 
-So far, we have only encountered one control issue. That was figuring out how to store the user log in. Using an external Google database, we were able to implement user login and identification. It simplified the process of needing another database within application. <br>
+So far, we have only encountered one control issue. That was figuring out how to store the user log in. Using an external Google database, we were able to implement user login and identification. It simplified the process of needing another database within application to store the user login information and authentification. <br>
 <br>
 
 
