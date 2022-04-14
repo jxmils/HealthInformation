@@ -38,11 +38,8 @@ This is a digital medical ID card that has a lot of sensitive information, inclu
 <br>
 
 ## Control Issue
-So far, we have only encountered one control issue. That was how to store the user log in. <br>
-<br>
-
-### Firebase 
-Using an external Google database, we were able to implement user login and identification. <br>
+### Login Issues 
+So far, we have only encountered one control issue. That was figuring out how to store the user log in. Using an external Google database, we were able to implement user login and identification. It simplified the process of needing another database within application. <br>
 <br>
 
 
