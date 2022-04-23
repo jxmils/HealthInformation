@@ -17,7 +17,7 @@ Constraints: None.<br>
 Effort Estimation: 4 person-hours.<br>
 Acceptance Test: Succesfully edit and save information on the application.<br>
 
-## 1.2 Information Privacy
+## 1.3 Information Privacy
 As a patient, I am worried that my information will leak. Please provide an information page which explains how the application is handling privacy concerns.<br>
 Elaboration: Users should feel safe while putting in their information on an application. The technical world is a scary place. I want to make sure that my information is stored where no one could access it with mal intent.<br>
 Constraints: User Privacy.<br>
