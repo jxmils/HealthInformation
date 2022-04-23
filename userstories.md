@@ -78,7 +78,7 @@ Constraints: None. <br>
 Effort Estimation: 4 - person hours.<br>
 Acceptance State:  When the user is able to freely edit, create or delete an appointment without any hassle nor any bugs in the program.<br>
 
-## 3.5 Doctor inteface
+## 3.5 Doctor interface
 As a user, I want to be able to easily access all the doctors/clinics in my area.<br>
 Elaboration: Users are able to access and easily see ratings on nearby doctors, which one is the closest to current location, and find out where to go for certain kinds of treatment, aka x-rays, chest congestion, skin infection, etc....<br>
 Constraints: None. <br>
