@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C0950712800C047007AA29A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950702800C047007AA29A /* AddView.swift */; };
-		1C0950722800C047007AA29A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950702800C047007AA29A /* AddView.swift */; };
-		1C0950772800C05C007AA29A /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950762800C05B007AA29A /* ListRowView.swift */; };
-		1C0950782800C05C007AA29A /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950762800C05B007AA29A /* ListRowView.swift */; };
-		1C09507A2800C067007AA29A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950792800C067007AA29A /* ListView.swift */; };
-		1C09507B2800C067007AA29A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0950792800C067007AA29A /* ListView.swift */; };
+		1C103C64281747C800A9FCAB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C63281747C800A9FCAB /* AddView.swift */; };
+		1C103C65281747C800A9FCAB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C63281747C800A9FCAB /* AddView.swift */; };
+		1C103C67281747DF00A9FCAB /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C66281747DE00A9FCAB /* DoctorCell.swift */; };
+		1C103C68281747DF00A9FCAB /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C66281747DE00A9FCAB /* DoctorCell.swift */; };
+		1C103C6A281747EF00A9FCAB /* DoctorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C69281747EE00A9FCAB /* DoctorData.swift */; };
+		1C103C6B281747EF00A9FCAB /* DoctorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C69281747EE00A9FCAB /* DoctorData.swift */; };
+		1C103C6D281747FD00A9FCAB /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C6C281747FC00A9FCAB /* ListRowView.swift */; };
+		1C103C6E281747FD00A9FCAB /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C6C281747FC00A9FCAB /* ListRowView.swift */; };
+		1C103C702817481200A9FCAB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C6F2817481100A9FCAB /* ListView.swift */; };
+		1C103C712817481200A9FCAB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C6F2817481100A9FCAB /* ListView.swift */; };
+		1C103C732817484900A9FCAB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C722817484900A9FCAB /* SearchView.swift */; };
+		1C103C742817484900A9FCAB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C103C722817484900A9FCAB /* SearchView.swift */; };
 		1C5BB3ED27F36885006DAD80 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BB3EC27F36885006DAD80 /* HealthApp.swift */; };
 		1C5BB3EE27F36885006DAD80 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BB3EC27F36885006DAD80 /* HealthApp.swift */; };
 		1C5BB3F627F36E0A006DAD80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BB3F527F36E0A006DAD80 /* GoogleService-Info.plist */; };
@@ -62,9 +68,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C0950702800C047007AA29A /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
-		1C0950762800C05B007AA29A /* ListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
-		1C0950792800C067007AA29A /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1C103C63281747C800A9FCAB /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddView.swift; path = "../../../../../Unzip/Jingru/New Doctor features/HealthInformation/HealthInformation/AddView.swift"; sourceTree = "<group>"; };
+		1C103C66281747DE00A9FCAB /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
+		1C103C69281747EE00A9FCAB /* DoctorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorData.swift; sourceTree = "<group>"; };
+		1C103C6C281747FC00A9FCAB /* ListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListRowView.swift; path = "../../../../../Unzip/Jingru/New Doctor features/HealthInformation/HealthInformation/ListRowView.swift"; sourceTree = "<group>"; };
+		1C103C6F2817481100A9FCAB /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = "../../../../../Unzip/Jingru/New Doctor features/HealthInformation/HealthInformation/ListView.swift"; sourceTree = "<group>"; };
+		1C103C722817484900A9FCAB /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		1C5BB3EC27F36885006DAD80 /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
 		1C5BB3F527F36E0A006DAD80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C65AE1827FF9FC300ACB755 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -140,9 +149,12 @@
 		1CAC02C127F1354B002B2D59 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1C0950702800C047007AA29A /* AddView.swift */,
-				1C0950762800C05B007AA29A /* ListRowView.swift */,
-				1C0950792800C067007AA29A /* ListView.swift */,
+				1C103C63281747C800A9FCAB /* AddView.swift */,
+				1C103C6C281747FC00A9FCAB /* ListRowView.swift */,
+				1C103C66281747DE00A9FCAB /* DoctorCell.swift */,
+				1C103C69281747EE00A9FCAB /* DoctorData.swift */,
+				1C103C722817484900A9FCAB /* SearchView.swift */,
+				1C103C6F2817481100A9FCAB /* ListView.swift */,
 				1CD3D14927FF968F00B03412 /* Home.swift */,
 				1CD3D14627FF967A00B03412 /* CustomDatePicker.swift */,
 				1CD3D14327FF966E00B03412 /* DateValue.swift */,
@@ -417,17 +429,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C103C702817481200A9FCAB /* ListView.swift in Sources */,
+				1C103C64281747C800A9FCAB /* AddView.swift in Sources */,
 				1CD3D14127FF966000B03412 /* Prescription.swift in Sources */,
 				1CAC02EC27F1354E002B2D59 /* ContentView.swift in Sources */,
 				1CD3D13E27FF94D100B03412 /* DataStore.swift in Sources */,
 				1CD3D14427FF966F00B03412 /* DateValue.swift in Sources */,
 				1C65AE1C27FFA00200ACB755 /* SignInView.swift in Sources */,
+				1C103C6A281747EF00A9FCAB /* DoctorData.swift in Sources */,
 				1C5BB3ED27F36885006DAD80 /* HealthApp.swift in Sources */,
-				1C0950772800C05C007AA29A /* ListRowView.swift in Sources */,
-				1C0950712800C047007AA29A /* AddView.swift in Sources */,
+				1C103C67281747DF00A9FCAB /* DoctorCell.swift in Sources */,
 				1CD3D14727FF967B00B03412 /* CustomDatePicker.swift in Sources */,
+				1C103C6D281747FD00A9FCAB /* ListRowView.swift in Sources */,
+				1C103C732817484900A9FCAB /* SearchView.swift in Sources */,
 				1CD3D14A27FF968F00B03412 /* Home.swift in Sources */,
-				1C09507A2800C067007AA29A /* ListView.swift in Sources */,
 				1C65AE1927FF9FC300ACB755 /* SignUpView.swift in Sources */,
 				1CD3D13B27FF90FF00B03412 /* CheckListView.swift in Sources */,
 			);
@@ -437,17 +452,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C103C712817481200A9FCAB /* ListView.swift in Sources */,
+				1C103C65281747C800A9FCAB /* AddView.swift in Sources */,
 				1CD3D14227FF966000B03412 /* Prescription.swift in Sources */,
 				1CAC02ED27F1354E002B2D59 /* ContentView.swift in Sources */,
 				1CD3D13F27FF94D100B03412 /* DataStore.swift in Sources */,
 				1CD3D14527FF966F00B03412 /* DateValue.swift in Sources */,
 				1C65AE1D27FFA00200ACB755 /* SignInView.swift in Sources */,
+				1C103C6B281747EF00A9FCAB /* DoctorData.swift in Sources */,
 				1C5BB3EE27F36885006DAD80 /* HealthApp.swift in Sources */,
-				1C0950782800C05C007AA29A /* ListRowView.swift in Sources */,
-				1C0950722800C047007AA29A /* AddView.swift in Sources */,
+				1C103C68281747DF00A9FCAB /* DoctorCell.swift in Sources */,
 				1CD3D14827FF967B00B03412 /* CustomDatePicker.swift in Sources */,
+				1C103C6E281747FD00A9FCAB /* ListRowView.swift in Sources */,
+				1C103C742817484900A9FCAB /* SearchView.swift in Sources */,
 				1CD3D14B27FF968F00B03412 /* Home.swift in Sources */,
-				1C09507B2800C067007AA29A /* ListView.swift in Sources */,
 				1C65AE1A27FF9FC300ACB755 /* SignUpView.swift in Sources */,
 				1CD3D13C27FF90FF00B03412 /* CheckListView.swift in Sources */,
 			);
