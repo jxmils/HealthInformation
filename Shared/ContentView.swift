@@ -54,6 +54,9 @@ class AppViewModel: ObservableObject{
 struct ContentView: View {
     
     @EnvironmentObject var viewModel: AppViewModel
+    @ObservedObject var DoctorData: DoctorManager = DoctorManager(data: initDoctorData())
+    
+        @State var showEditingPage = false
     
     var body: some View {
         NavigationView{

@@ -13,7 +13,6 @@ import Firebase
 struct HealthApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
     var body: some Scene {
         
         WindowGroup {
@@ -31,4 +30,21 @@ class AppDelegate: NSObject, UIApplicationDelegate{
         
         return true
     }
+}
+
+var formatter = DateFormatter()
+func initDoctorData() -> [SingleDoctor] {
+    
+    formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+    
+    var output: [SingleDoctor] = []
+    if let dataStored = UserDefaults.standard.object(forKey: "DoctorListData") as? Data {
+        let data = try! decoder.decode([SingleDoctor].self, from: dataStored)
+        for item in data {
+            if !item.deleted {
+                output.append(SingleDoctor(specialty: item.specialty, officeAddress: item.officeAddress, phoneNumber: item.phoneNumber, addDudate: item.addDudate, id: output.count))
+            }
+        }
+    }
+    return output
 }
