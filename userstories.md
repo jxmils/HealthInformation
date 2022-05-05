@@ -10,7 +10,7 @@ Constraints: None.<br>
 Effort Estimation: 3 person-hours.<br>
 Acceptance Test: Perform editing operation in user interface on demo data and save the data in the system. Show that the app can save the data correctly in the system.<br>
 
-## 1.2 Editing Externally
+## 1.2 Future Work - Editing Externally
 As a user, I do not like that I have to go into an external web page to edit my information.<br>
 Elaboration: Users should be able to edit their own information through a user interface instead of having to go to an external browser and edit it through there. This will increase easability.<br>
 Constraints: None.<br>
@@ -33,14 +33,14 @@ Constraints: None.<br>
 Effort Estimation: 2 person-hours.<br>
 Acceptance Test: Perform a test by succesfully scanning and uploading an ID or insurance card.
 
-## 2.2 Succesfully Storing Prescription Data
+## 2.2 Future Work - Succesfully Storing Prescription Data
 As a Doctor, I want to be able to succesfully store the data my customers upload so that my firm can easily track our customer refills and current prescriptions. <br>
 Elaboration: I want to store the data my customers upload to my system, so that I can easily purchase the medicine needed for refills or send out refill prescriptions if needed. <br>
 Constraints: User Privacy.<br>
 Effort Estimation: 3 person-hours.<br>
 Acceptance Test: Perform a test by succesfully downloading a customer data-sheet.
 
-## 2.3 Printing of Information
+## 2.3 Future Work - Printing of Information
 As a user, I want an information sheet that can print out my personal information.<br>
 Elaboration: I want to be able to print out my own information to easily take to the doctor. It is annoying have to re state everything to the doctor while I can just provide any changes on the application, take a sheet, and not have to explain anything.<br>
 Constraints: User Privacy and accessing data.<br>
