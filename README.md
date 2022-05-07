@@ -6,5 +6,6 @@ The HealthInformation application (HI) is a mobile application designed for the 
 ## Downloading and Running
 In order to download our application please see our releases for incremental updating. <br/>
 Since this is an iOS project, Xcode is required to preview the application in live time. <br/>
+Please run all binaries and open the project in Xcode and make any edits you would like!
 
 ## [Project Site](https://jxmils.github.io/HealthInformation/)
